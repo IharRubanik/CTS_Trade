@@ -1,0 +1,354 @@
+/* Fonts start */
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("./fonts/Dru-Cyr/DrukCyr-Bold.eot");
+  src: local("Druk Cyr Bold"), local("DrukCyr-Bold"),
+    url("./fonts/Dru-Cyr/DrukCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Dru-Cyr/DrukCyr-Bold.woff2") format("woff2"),
+    url("./fonts/Dru-Cyr/DrukCyr-Bold.woff") format("woff"),
+    url("./fonts/Dru-Cyr/DrukCyr-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("./fonts/Druk-Cyr/DrukCyr-Heavy.eot");
+  src: local("Druk Cyr Heavy"), local("DrukCyr-Heavy"),
+    url("./fonts/Druk-Cyr/DrukCyr-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Dru-Cyr/DrukCyr-Heavy.woff2") format("woff2"),
+    url("./fonts/Dru-Cyr/DrukCyr-Heavy.woff") format("woff"),
+    url("./fonts/Dru-Cyr/DrukCyr-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("./fonts/Dru-Cyr/DrukCyr-HeavyItalic.eot");
+  src: local("Druk Cyr Heavy Italic"), local("DrukCyr-HeavyItalic"),
+    url("./fonts/Dru-Cyr/DrukCyr-HeavyItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Dru-Cyr/DrukCyr-HeavyItalic.woff2") format("woff2"),
+    url("./fonts/Dru-Cyr/DrukCyr-HeavyItalic.woff") format("woff"),
+    url("./fonts/Dru-Cyr/DrukCyr-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("./fonts/Dru-Cyr/DrukCyr-MediumItalic.eot");
+  src: local("Druk Cyr Medium Italic"), local("DrukCyr-MediumItalic"),
+    url("./fonts/Dru-Cyr/DrukCyr-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Dru-Cyr/DrukCyr-MediumItalic.woff2") format("woff2"),
+    url("./fonts/Dru-Cyr/DrukCyr-MediumItalic.woff") format("woff"),
+    url("./fonts/Dru-Cyr/DrukCyr-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("./fonts/Dru-Cyr/DrukCyr-SuperItalic.eot");
+  src: local("Druk Cyr Super Italic"), local("DrukCyr-SuperItalic"),
+    url("./fonts/Dru-Cyr/DrukCyr-SuperItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Dru-Cyr/DrukCyr-SuperItalic.woff2") format("woff2"),
+    url("./fonts/Dru-Cyr/DrukCyr-SuperItalic.woff") format("woff"),
+    url("./fonts/Dru-Cyr/DrukCyr-SuperItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("./fonts/Dru-Cyr/DrukCyr-Super.eot");
+  src: local("Druk Cyr Super"), local("DrukCyr-Super"),
+    url("./fonts/Dru-Cyr/DrukCyr-Super.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Dru-Cyr/DrukCyr-Super.woff2") format("woff2"),
+    url("./fonts/Dru-Cyr/DrukCyr-Super.woff") format("woff"),
+    url("./fonts/Dru-Cyr/DrukCyr-Super.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("./fonts/Dru-Cyr/DrukCyr-Medium.eot");
+  src: local("Druk Cyr Medium"), local("DrukCyr-Medium"),
+    url("./fonts/Dru-Cyr/DrukCyr-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Dru-Cyr/DrukCyr-Medium.woff2") format("woff2"),
+    url("./fonts/Dru-Cyr/DrukCyr-Medium.woff") format("woff"),
+    url("./fonts/Dru-Cyr/DrukCyr-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("./fonts/Dru-Cyr/DrukCyr-BoldItalic.eot");
+  src: local("Druk Cyr Bold Italic"), local("DrukCyr-BoldItalic"),
+    url("./fonts/Dru-Cyr/DrukCyr-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Dru-Cyr/DrukCyr-BoldItalic.woff2") format("woff2"),
+    url("./fonts/Dru-Cyr/DrukCyr-BoldItalic.woff") format("woff"),
+    url("./fonts/Dru-Cyr/DrukCyr-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* --------------------- Manrope  ---------------------------- */
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Bold.eot");
+  src: local("Manrope Bold"), local("Manrope-Bold"),
+    url("./fonts/Manrope/Manrope-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Manrope/Manrope-Bold.woff2") format("woff2"),
+    url("./fonts/Manrope/Manrope-Bold.woff") format("woff"),
+    url("./fonts/Manrope/Manrope-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Semibold.eot");
+  src: local("Manrope Semibold"), local("Manrope-Semibold"),
+    url("./fonts/Manrope/Manrope-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Manrope/Manrope-Semibold.woff2") format("woff2"),
+    url("./fonts/Manrope/Manrope-Semibold.woff") format("woff"),
+    url("./fonts/Manrope/Manrope-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Regular.eot");
+  src: local("Manrope Regular"), local("Manrope-Regular"),
+    url("./fonts/Manrope/Manrope-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Manrope/Manrope-Regular.woff2") format("woff2"),
+    url("./fonts/Manrope/Manrope-Regular.woff") format("woff"),
+    url("./fonts/Manrope/Manrope-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Light.eot");
+  src: local("Manrope Light"), local("Manrope-Light"),
+    url("./fonts/Manrope/Manrope-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Manrope/Manrope-Light.woff2") format("woff2"),
+    url("./fonts/Manrope/Manrope-Light.woff") format("woff"),
+    url("fonts/Manrope/Manrope-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Thin.eot");
+  src: local("Manrope Thin"), local("Manrope-Thin"),
+    url("./fonts/Manrope/Manrope-Thin.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Manrope/Manrope-Thin.woff2") format("woff2"),
+    url("./fonts/Manrope/Manrope-Thin.woff") format("woff"),
+    url("./fonts/Manrope/Manrope-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Medium.eot");
+  src: local("Manrope Medium"), local("Manrope-Medium"),
+    url("./fonts/Manrope/Manrope-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Manrope/Manrope-Medium.woff2") format("woff2"),
+    url("./fonts/Manrope/Manrope-Medium.woff") format("woff"),
+    url("./fonts/Manrope/Manrope-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-ExtraBold.eot");
+  src: local("Manrope ExtraBold"), local("Manrope-ExtraBold"),
+    url("./fonts/Manrope/Manrope-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Manrope/Manrope-ExtraBold.woff2") format("woff2"),
+    url("./fonts/Manrope/Manrope-ExtraBold.woff") format("woff"),
+    url("./fonts/Manrope/Manrope-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Fonts end */
+
+
+/* Эрика код нало */
+.problems {
+  /* max-height: 933px; */
+  /* ! убрать след. строку */
+  height: 1210px;
+  margin-top: 120px;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* flex-direction: column; */
+}
+
+.problems_top_block {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  /* margin-bottom: 50px; */
+}
+
+.single_tittle {
+  margin-top: 54px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1b1919;
+  width: 112px;
+  height: 27px;
+  margin-right: 201px;
+}
+
+.middle_block {
+  display: flex;
+  flex-direction: column;
+}
+.middle_block h2 {
+  max-width: 849px;
+  height: 82px;
+  font-family: Druk Cyr;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 78px;
+  line-height: 82px;
+  color: #1b1919;
+  margin-bottom: 98px;
+}
+.middle_block .h2_1666 {
+  display: none;
+}
+
+.situation_help_374 img {
+  display: none;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.situation_help_374 {
+  display: none;
+  width: 165px;
+  height: 132px;
+}
+
+.we_help_374 {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1b1919;
+}
+
+.middle_block .h2_768 {
+  display: none;
+  max-width: 462px;
+  height: 120px;
+  font-family: Druk Cyr;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 60px;
+  color: #1b1919;
+  margin-bottom: 58px;
+}
+
+.middle_block .h2_374 {
+  display: none;
+}
+
+.points_item {
+  display: flex;
+  width: 900px;
+  height: 68px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1b1919;
+  border-top: 1px solid #1b1919;
+  align-self: center;
+}
+
+.points_item5 {
+  border-bottom: 1px solid #1b1919;
+}
+
+.points_item p {
+  margin-right: 34px;
+}
+.points_item h3 {
+  margin-top: 17px;
+}
+
+.situation_help {
+  margin-left: 92px;
+  margin-top: 60px;
+}
+
+.we_help {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1b1919;
+  width: 274px;
+  height: 104px;
+}
+
+.problems_top_block .man_with_comp {
+  position: absolute;
+  width: 530px;
+  height: 580px;
+  right: -41px;
+  bottom: -550px;
+}
+
+.points {
+  width: 905px;
+  height: 72px;
+  /* text-align: center; */
+}
+
+/* .points :hover {
+  background-color: #d31919; 
+  transition: 00.3s;
+} */
+
+.problems .hr {
+  display: none;
+}
+
+.points2 {
+  margin-left: 620px;
+  margin-top: 350px;
+}
+.points_item10 {
+  border-bottom: 1px solid #1b1919;
+}
+/* Эрика код конец */

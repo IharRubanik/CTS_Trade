@@ -1,0 +1,554 @@
+
+/* Media Styles start Eric */
+
+@media (max-width: 1919px) {
+    .vertical_line {
+      display: none;
+    }
+    .frame {
+      display: block;
+      justify-content: end;
+      margin-top: 20px;
+      height: 176px;
+      width: 586px;
+    }
+    .frame h2 {
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1b1919;
+      margin-left: 12px;
+      margin-top: 8px;
+    }
+    .container_button_red {
+      width: 216px;
+      height: 216px;
+      left: 40px;
+      bottom: 40px;
+    }
+    .container_button_red img {
+      left: -15px;
+    }
+    .button_h3 {
+      top: 80px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .button_block {
+      margin-top: 150px;
+    }
+    .container_button_red:hover {
+      width: 200px;
+      height: 200px;
+    }
+    .frame span {
+      color: #d31919;
+    }
+    .frame_end1 {
+      height: 63px;
+      width: 295px;
+      border: 1px solid #1b1919;
+    }
+    .frame_end2 {
+      height: 40px;
+      width: 385px;
+      border: 1px solid #1b1919;
+      margin-top: 20px;
+      margin-left: -125px;
+    }
+    .frame_end3 {
+      height: 90px;
+      width: 200px;
+      border: 1px solid #1b1919;
+      margin-top: -43px;
+      margin-left: 290px;
+    }
+    .single_tittle {
+      display: none;
+    }
+    .situation_help {
+      right: 663px;
+    }
+    .points2 {
+      margin-left: 360px;
+    }
+    .problems_top_block .man_with_comp {
+      width: 430px;
+      height: 480px;
+    }
+  
+    /*? после 03:00 */
+    .problems_top_block .man_with_comp {
+      width: 500px;
+      height: 550px;
+      right: -126px;
+      bottom: -460px;
+      z-index: 1;
+    }
+    /*? после 03:00 */
+  }
+  @media (max-width: 1665px) {
+    .right_block_main {
+      display: none;
+    }
+    .container_messenger_link {
+      position: absolute;
+      right: 0px;
+      top: 120px;
+    }
+    .middle_block .h2 {
+      left: 0px;
+    }
+    .problems_top_block .man_with_comp {
+      width: 380px;
+      height: 430px;
+      right: -126px;
+      bottom: -370px;
+      z-index: 1;
+    }
+  
+    /*? после 03:00 */
+  }
+  @media (max-width: 1365px) {
+    ._container {
+      padding: 0px 29px;
+    }
+    .left_block_main h1 {
+      font-size: 68px;
+      line-height: 70px;
+    }
+    .video_container {
+      margin-top: -25px;
+    }
+    .video_text {
+      top: 47px;
+      font-size: 48px;
+      line-height: 61px;
+      right: -543px;
+    }
+    .container_button_red {
+      left: 29px;
+    }
+  
+    /*? после 03:00 */
+    .middle_block {
+      width: 800px;
+    }
+    .middle_block h2 {
+      font-size: 70px;
+      line-height: 82px;
+      margin-bottom: 50px;
+    }
+  
+    .situation_help {
+      margin-left: 40px;
+      margin-top: 33px;
+    }
+    .we_help {
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      width: 301px;
+      height: 72px;
+    }
+    .points_item {
+      width: 800px;
+      height: 68px;
+    }
+  
+    .points .points_item3 h3 {
+      margin-top: 8px;
+    }
+    .points2 .points_item6 h3 {
+      margin-top: 8px;
+    }
+    .points2 .points_item8 h3 {
+      margin-top: 8px;
+    }
+    .problems_top_block .man_with_comp {
+      width: 400px;
+      height: 440px;
+      right: -150px;
+      bottom: -370px;
+      z-index: 1;
+    }
+    .problems {
+      position: relative;
+    }
+  
+    .points2 {
+      position: absolute;
+      right: 30px;
+      top: 200px;
+    }
+  
+    /*? после 03:00 */
+  }
+  @media (max-width: 1023px) {
+    .container_phone {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .phone_ru {
+      margin-top: 28px;
+      overflow: hidden;
+      width: 100%;
+    }
+    .phone_cn {
+      margin-top: 6px;
+      overflow: hidden;
+      width: 100%;
+      margin-right: auto;
+      margin-left: 39px;
+    }
+    .container_messenger_link {
+      flex-direction: column;
+      margin-top: 0px;
+    }
+    .container_messenger_link a {
+      margin-top: 29px;
+      margin-right: 0px;
+    }
+    .container_messenger_link a:not(:first-child) {
+      margin-left: 0px;
+    }
+    .left_block_main {
+      width: auto;
+      height: auto;
+      overflow: hidden;
+    }
+    .main_h1_1 {
+      display: none;
+    }
+    .main_h1_2 {
+      display: block;
+    }
+    .left_block_main > * {
+      margin: 0px;
+    }
+    .video_container {
+      margin-top: 50px;
+    }
+    .video_text {
+      right: -542px;
+    }
+    .container_button_red {
+      bottom: 103px;
+    }
+    .frame {
+      height: auto;
+      width: auto;
+    }
+    .frame_end2 {
+      margin-top: 20px;
+      margin-left: 90px;
+    }
+    .frame_end3 {
+      margin-top: 20px;
+      margin-left: 136px;
+    }
+  
+    /* Эрика код начало 
+    @media (max-width: 1023px) */
+    .middle_block h2 {
+      max-width: 633px;
+      height: 60px;
+      font-family: Druk Cyr;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 54px;
+      line-height: 60px;
+      color: #1b1919;
+      margin-bottom: 65px;
+    }
+    .situation_help {
+      margin-left: 40px;
+      margin-top: 40px;
+    }
+    .we_help {
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      width: 301px;
+      height: 72px;
+    }
+    .points {
+      width: 630px;
+      height: 78px;
+    }
+    .points_item {
+      width: 633px;
+      height: 76px;
+    }
+  
+    .problems_top_block .man_with_comp {
+      width: 360px;
+      height: 396px;
+      right: -126px;
+      bottom: -360px;
+      z-index: 1;
+    }
+    .problems {
+      position: relative;
+    }
+  
+    /*? после 03:00 */
+    .points2 {
+      position: absolute;
+      right: 30px;
+      top: 165px;
+    }
+    /*? после 03:00 */
+    /* Эрика код конец */
+  }
+  @media (max-width: 767px) {
+    .button_feedback {
+      display: none;
+    }
+    ._container {
+      padding: 0px 15px;
+    }
+    .container_phone {
+      margin-right: 8px;
+    }
+    .container_logo_name {
+      display: none;
+    }
+    .header {
+      position: relative;
+    }
+    .container_messenger_link {
+      display: inline;
+      position: absolute;
+      right: 13px;
+      top: 90px;
+      margin-right: 0px;
+    }
+    .container_messenger_link a {
+      margin-right: 27px;
+    }
+    .container_messenger_link a:last-child {
+      margin-right: 0px;
+    }
+    .left_block_main {
+      height: auto;
+    }
+    .main_h1_1,
+    .main_h1_2 {
+      display: none;
+    }
+    .main_h1_3 {
+      display: block;
+      font-family: Druk Cyr;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 52px;
+      line-height: 52px;
+      color: #1b1919;
+    }
+    .video_container {
+      margin-top: 500px;
+    }
+    .video_container {
+      margin-top: 50px;
+    }
+    .video_text {
+      top: 30px;
+      right: -413px;
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .container_button_red {
+      width: 120px;
+      height: 120px;
+      bottom: 161px;
+    }
+    .container_button_red img {
+      height: auto;
+      width: 60px;
+      left: 0px;
+    }
+    .button_h3 {
+      display: none;
+    }
+    .h3_2 {
+      display: block;
+      font-size: 12px;
+      line-height: 16px;
+      top: 43px;
+    }
+    .button_block {
+      width: 71px;
+      height: 18px;
+      margin-top: 80px;
+    }
+    .button_block h4 {
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .container_button_red:hover {
+      width: 120px;
+      height: 120px;
+      bottom: 162px;
+    }
+    .frame {
+      justify-content: end;
+    }
+    .frame h2 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+    }
+    .frame_end1 {
+      margin-left: auto;
+    }
+    .frame_end2 {
+      margin-left: auto;
+      height: auto;
+      white-space: nowrap;
+      width: auto;
+    }
+    .frame_end3 {
+      margin-left: auto;
+    }
+  
+    /* Эрика код начало  767px*/
+    /*? после 03:00 */
+    .middle_block {
+      width: 462px;
+    }
+    .middle_block .h2 {
+      display: none;
+      margin-bottom: 70px;
+    }
+    /*? после 03:00 */
+    .middle_block .h2_768 {
+      display: block;
+    }
+    .situation_help {
+      /* margin-left: 40px; */
+      margin-top: 26px;
+    }
+    .situation_help img {
+      margin-bottom: 6px;
+    }
+    .we_help {
+      font-size: 16px;
+      line-height: 24px;
+      width: 216px;
+      height: 96px;
+    }
+    .points {
+      width: 630px;
+      height: 78px;
+    }
+    .points_item {
+      width: 462px;
+      height: 76px;
+    }
+    .problems_top_block .man_with_comp {
+      width: 360px;
+      height: 396px;
+      right: -126px;
+      bottom: -360px;
+    }
+    /*? после 03:00 */
+    .points_item h3 {
+      margin-top: 10px;
+    }
+    .problems .hr {
+      display: block;
+      position: absolute;
+      width: 680px;
+      top: 564px;
+    }
+    .points2 {
+      position: absolute;
+      right: 30px;
+      top: 228px;
+    }
+    .points_item5 {
+      border-bottom-style: none;
+    }
+    .points_item6 {
+      border-top-style: none;
+      margin-bottom: 15px;
+    }
+    .problems_top_block .man_with_comp {
+      width: 360px;
+      height: 376px;
+      right: -136px;
+      bottom: -350px;
+      z-index: 1;
+    }
+    /*? после 03:00 */
+  
+    /* Эрика код конец */
+  }
+  
+  @media (max-width: 376px) {
+    /*? после 03:00 */
+    .middle_block .h2_768 {
+      display: none;
+    }
+    .middle_block .h2_374 {
+      display: block;
+      font-size: 42px;
+      line-height: 44px;
+      width: 345px;
+      height: 88px;
+    }
+    .situation_help {
+      display: none;
+    }
+    .situation_help_374 img {
+      display: block;
+    }
+    .situation_help_374 {
+      display: block;
+      display: flex;
+    }
+    .problems .points {
+      margin-top: 103px;
+    }
+    .problems .points2 {
+      display: none;
+    }
+    .points_item {
+      width: 345px;
+      height: 87px;
+    }
+    .points_item h3 {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .points_item p {
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 19px;
+      text-align: center;
+  
+      color: #1b1919;
+      margin-right: 12px;
+    }
+    .problems .hr {
+      display: none;
+    }
+    .problems_top_block .man_with_comp {
+      display: none;
+    }
+    /*? после 03:00 */
+  }
+  
+
+/* Media Styles end Eric */
